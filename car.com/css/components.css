@@ -1,6 +1,15 @@
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    align-items: center;
+    justify-content: center;
+}
 .logo {
     height: 3.25rem;
-    margin-left: 3rem;
+}
+.logo-name{
+    margin-top: -10px;
 }
 
 .search {
