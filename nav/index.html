@@ -6,51 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="nav" id="nav">
-            <div class="top-nav-bar">
-                <h1 id="top-nav-logo">
-                    <a href="index.html">
-                        Navbar
-                    </a>
-                </h1>
-                <ul class="top-nav-item" id="top-nav-item">
-                    <li class="top-nav-item-list" id="top-nav-item-list">
-                        <button type="button" href="#" class="btn-create-account" id="btn-create-account">Create Account</button>
-                    </li>
-                    <li class="top-nav-item-list" id="top-nav-item-list">
-                        <button type="button" href="#" class="btn-login" id="btn-login">Login</button>
-                    </li>
+        <header class="header">
+            <img src="" alt="logo" class="logo">
 
-                </ul>
-            </div>
-
-
-            <div class="nav-bar" id="nav-bar">
-                <!-- <h1 id="nav-logo">
-                    <a href="index.html">
-                        Navbar
-                    </a>
-                </h1>
-                <ul class="nav-item" id="nav-item">
-                    <li class="nav-item-list" id="nav-item-list"><a class="active" href="#"> Home</a> </li>
-                    <li class="nav-item-list" id="nav-item-list"><a href="#">About</a></li>
-                    <li class="nav-item-list" id="nav-item-list"><a href="#">Service</a></li>
-                    <li class="nav-item-list" id="nav-item-list"><a href="#">Contact</a></li>
-                </ul> -->
-
-                <ul class="nav-item" id="nav-item">
-                    <li class="nav-item-list" id="nav-item-list"><a class="active" href="#"> Home</a> </li>
-                    <li class="nav-item-list" id="nav-item-list"><a href="#">About</a></li>
-                    <li class="nav-item-list" id="nav-item-list"><a href="#">Service</a></li>
-                    <li class="nav-item-list" id="nav-item-list"><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+            <from action="#" class="search">
+                <input type="text" class="search-input" placeholder="Search">
+                <button class="search-button">
+                    <span class="search-icon">
+                        <i class="fa fa-search"></i>
+                    </span>
+                </button>
+            </from>
+            
+            <nav class="user-nav">
+                <div class="user-nav-icon-box">
+                    <span class="user-nav-icon">
+                        <i class="fa fa-bookmark"></i>
+                    </span>
+                    <span class="user-nav-notification">7</span>
+                </div>
+                <div class="user-nav-icon-box">
+                    <span class="user-nav-icon">
+                        <i class="fa fa-comments"></i>
+                    </span>
+                    <span class="user-nav-notification">7</span>
+                </div>
+            </nav>
+        </header>
     </div>
 
 </body>
